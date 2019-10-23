@@ -1,6 +1,6 @@
 # BottomSheetDilog Calendar
 BottomSheetDilogCalendarExample
-
+![](run.gif)
 1. Using Example
 ```kotlin
 // onCaller

@@ -15,12 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn.setOnClickListener {
-            val b = BottomDate().apply {
+            BottomDate().apply {
                 addOnSelectorDateListener { Year, Month, DayOfMonth ->
-                    btn.text =  "${Year}년 ${Month}월 ${DayOfMonth}일 "
+                    btn.text =  "${Year}년 ${Month+1}월 ${DayOfMonth}일 "
                 }
-            }
-            b.show(supportFragmentManager, "바닥에서 선택")
+            }.show(supportFragmentManager, "바닥에서 선택")
         }
     }
 
