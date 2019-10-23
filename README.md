@@ -1,6 +1,6 @@
 # BottomSheetDilog Calendar
 BottomSheetDilogCalendarExample
-![](run.gif)
+![](run.gif = 640x360 )
 1. Using Example
 ```kotlin
 // onCaller
